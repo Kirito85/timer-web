@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #76b39d, #cde8e4); /* Градиент от зелёного к светло-бирюзовому */
+    color: #f4f4f9; /* Основной цвет текста */
+}
+
+h1 {
+    color: #2c6b4f; /* Темно-зеленый цвет текста для заголовка */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Легкая тень текста */
+    font-size: 2.5rem; /* Размер шрифта заголовка */
+    letter-spacing: 1px; /* Расстояние между буквами */
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.3); /* Полупрозрачный белый фон для мягкости */
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Мягкая тень контейнера */
+    text-align: center;
+    width: 300px;
+}
+
+#display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #2c6b4f; /* Темно-зеленый цвет текста для таймера */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); /* Тень текста */
+}
+
+#controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #98c1a9; /* Приглушенный зеленый цвет кнопок */
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: #2c6b4f; /* Темно-зеленый цвет текста на кнопках */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Плавный переход цвета и эффекта нажатия */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Тень кнопок */
+}
+
+button:hover {
+    background-color: #7ea88f; /* Более темный зеленый цвет при наведении */
+}
+
+button:active {
+    background-color: #6d9375; /* Более насыщенный зеленый цвет при клике */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); /* Тень при клике */
+    transform: translateY(2px); /* Эффект нажатия */
+}
